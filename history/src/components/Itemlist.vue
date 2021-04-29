@@ -146,13 +146,14 @@ export default {
 <style>
 .card {
     width: 20rem;
-    height: 20rem;
     margin: 0 auto;
-    margin-top: 1em;
+    margin: 1em;
     transition: 0.5s;
+    overflow: auto;
+    scrollbar-width: none;
 }
 .card-body {
-  padding: 0.5em;
+  padding: 1em;
 }
 .trippleRow {
   display: flex;
@@ -162,6 +163,7 @@ export default {
 }
 .card-img-top {
   height: 60%;
+  min-height: 60%
 }
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
@@ -208,6 +210,7 @@ export default {
   .card {
     max-height: 300px !important;
     max-width: 280px !important;
+    margin: 0 auto;
     margin-top: 2em;
   }
 }
