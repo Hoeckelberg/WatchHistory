@@ -9,10 +9,10 @@
             </div>
             <ul class="sidebar is-active">
               <div class="flex">
-                <a class="sidebar__item" href="#section" >HOME</a> 
-                <a class="sidebar__item" href="#section2">CREATE</a> 
-                <a class="sidebar__item" href="#section3">ABOUT</a> 
-                <a class="sidebar__item" href="#section4">IMPRESSUM</a>
+                <a class="sidebar__item" href="#section">HOME</a> 
+                <a class="sidebar__item" href="#section2">2</a> 
+                <a class="sidebar__item" href="#section3">3</a> 
+                <a class="sidebar__item" href="#section4">4</a>
                 <a class="sidebar__item 2" v-on:click="click"> <i class="fas fa-arrow-left"></i> </a> 
               </div>
             </ul>
@@ -20,10 +20,12 @@
             <img src="../assets/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
             Platzhalter
             </a>
-            <div class="flex2">
-              <li><a href="#" class="nav-link">Test</a></li>
-              <li><a href="#" class="nav-link">Test2</a></li>
-            </div>
+            <ul class="navbar-nav">
+              <div class="flex2">
+                <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-person"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Register</a></li>
+              </div>
+            </ul>
         </div>  
     </nav>
   </div>
@@ -55,11 +57,9 @@ methods: {
   background-color: #111; 
   overflow-x: hidden; 
   padding-top: 8em;
-
   padding-left: 0em;
   transition: 0.3s;
   opacity: 0;
-    
 }
 .sidebar.is-active { 
   opacity: 0.6;  
@@ -104,7 +104,6 @@ methods: {
   transform: scale(1.1);
 }
 .icon__element {
-    
   background-color: white;
   border-radius: 0.8em;
   height: 20%;

@@ -8,7 +8,7 @@
     </div>
     <div>
       <div class="title-container">
-        <h1 class="title">Your Anime</h1>
+        <h1 class="title">Anime</h1>
       </div>
       <Itemlist/>
     </div>
@@ -46,5 +46,9 @@ body {
 .HomeContainer {
   margin-top: 8em;
 }
-
+.title-container {
+  text-align: center;
+  margin: 0 auto;
+  margin-right: 3em;
+}
 </style>
