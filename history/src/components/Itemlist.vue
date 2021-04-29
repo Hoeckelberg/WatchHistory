@@ -21,9 +21,11 @@
       <div class="card text-white bg-dark">
         <img src="../assets/OP-4k.jpg" alt="Image" class="card-img-top img-fluid">
         <div class="card-body">
+          <div class="punchmeintheface"> 
             <h4 class="card-title"><b>One Piece</b></h4>
             <a href="#" class="btn btn-primary">Click!</a>
             <p class="card-text" style="margin-top: 3em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nulla similique odio impedit officia officiis sed dolorum dolore minima soluta.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -139,7 +141,7 @@
 
 <script>
 export default {
-
+  
 }
 </script>
 
