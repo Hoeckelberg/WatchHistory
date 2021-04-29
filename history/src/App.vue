@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <div class="CarouselContainer">
+      <Carousel/>
+    </div>
     <div class="HomeContainer">
       <Home/>
     </div>
@@ -13,10 +16,12 @@
 <script>
 import Home from './components/Home'
 import Itemlist from './components/Itemlist'
+import Carousel from './components/Carousel'
 
 export default {
   name: 'App',
   components: {
+    Carousel,
     Home,
     Itemlist
   }
